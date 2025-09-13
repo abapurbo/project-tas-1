@@ -1,0 +1,52 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:12px;
+
+    margin: 12px auto;
+    width: 1200px;
+
+}
+
+#list-container {
+    color: #505050;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    gap: 50px;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#list-container .home {
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+/* logo name */
+#name {
+    font-size: 22px
+}
+
+/* banner section */
+#banner-container {
+    background-image: url('../images/Banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1200px;
+    margin: 14px auto;
+}
+#banner-side-img{
+    position:relative;
+    left:750px;
+    height:90%;
+}
+
+/* card container */
