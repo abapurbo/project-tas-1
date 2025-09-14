@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding:12px;
+    padding: 12px;
 
     margin: 12px auto;
     width: 1200px;
@@ -43,10 +43,20 @@
     width: 1200px;
     margin: 14px auto;
 }
-#banner-side-img{
-    position:relative;
-    left:750px;
-    height:90%;
+
+#banner-side-img {
+    position: relative;
+    left: 750px;
+    height: 90%;
 }
 
 /* card container */
+.card-title {
+    text-align: center;
+    font-size:48px;
+    font-weight:600;
+}
+/* card style */
+.card-container{
+    
+}
